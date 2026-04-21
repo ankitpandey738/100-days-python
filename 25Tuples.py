@@ -47,3 +47,12 @@ print(T6)
 
 
 # How to Access a item from a tuple:
+T2 =(1,2,3,4,5)
+print(T2[0])
+print(T2[-1])
+print(T2[:4])
+T3 =("Hello",4,5,6)
+print(T3)
+T4 =(1,2,3,(4,5))
+print(T4)
+print(T4[-1][0])
