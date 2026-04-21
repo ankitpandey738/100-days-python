@@ -219,3 +219,43 @@ print(g6)
 print(L)
 g7 =L.sort()
 print(g7)
+
+
+c =[1,2,3,4]
+print(c.index(3))
+#Sorted will create a new list and whereas sort will make changes in the original list.
+
+B = "hello how are you"
+print(B.title())
+
+
+# Code Practice
+
+sample = "todayt has been great for me"
+print(sample.split())
+
+L = []
+for i in sample.split():
+    print(i.capitalize())
+    L.append(i.capitalize())
+    
+print(L)
+print(" ".join(L))
+
+# If we get this email id"abc@gmail.com" then we have to get the output abc.
+
+sample2 = "abc@gmail.com"
+
+print(sample2[:sample2.find("@")])
+
+# [1,1,2,2,3,3,4,4] remove all the duplicate item from the list.
+
+A1 = [1,1,2,2,3,3,4,4]
+A2 = [1,2,3,1]
+
+A=[]
+for i in A1:
+    if i not in A:
+        A.append(i)
+    
+print(A)
